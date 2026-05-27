@@ -6,6 +6,7 @@ project:
   description: "7-bit Arithmetic Logic Unit using Verilog HDL"
   language: "Verilog"
   clock_hz: 0
+  tiles: "1x1"
 
   top_module: "tt_um_alu7b"
 
