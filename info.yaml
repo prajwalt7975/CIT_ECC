@@ -1,46 +1,5 @@
 project:
-  wokwi_id: 0
-
-  top_module: "tt_um_alu7b"
-
-  source_files:
-    - "src/tt_um_alu7b.v"
-    - "src/serial_alu_ctrl.v"
-    - "src/alu_7b.v"
-
-  author: "Prajwal T PM Likhit kumar"
-  title: "7-bit ALU ASIC Design"
+  title: "7-bit ALU"
+  author: "Prajwal T, PM Likith Kumar"
   description: "7-bit Arithmetic Logic Unit using Verilog HDL"
-
   language: "Verilog"
-  clock_hz: 10000000
-
-  tiles: "1x1"
-
-  inputs:
-    - "A0"
-    - "A1"
-    - "A2"
-    - "A3"
-    - "A4"
-    - "A5"
-    - "A6"
-    - "OP0"
-
-  outputs:
-    - "OUT0"
-    - "OUT1"
-    - "OUT2"
-    - "OUT3"
-    - "OUT4"
-    - "OUT5"
-    - "OUT6"
-    - "DONE"
-
-  bidirectional: []
-
-  uses_uart: false
-  uses_spi: false
-  uses_i2c: false
-
-yaml_version: 6
