@@ -19,6 +19,11 @@ pinout:
   ui[0]: "input A"
   ui[1]: "input B"
   ui[2]: "operation select"
+  ui[3]: "unused"
+  ui[4]: "unused"
+  ui[5]: "unused"
+  ui[6]: "unused"
+  ui[7]: "unused"
 
   uo[0]: "result bit 0"
   uo[1]: "result bit 1"
