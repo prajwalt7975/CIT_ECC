@@ -1,20 +1,9 @@
-<!---
+# How it works
 
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
+This project implements a 7-bit Arithmetic Logic Unit (ALU) using Verilog HDL.
+The ALU performs arithmetic and logical operations such as ADD, SUB, AND, OR and XOR.
 
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
+# How to test
 
-## How it works
-
-Explain how your project works
-
-## How to test
-
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Provide input values through ui_in pins and observe output through uo_out pins.
+Simulation can be verified using the provided testbench files.
