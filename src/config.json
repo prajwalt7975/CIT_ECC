@@ -1,0 +1,11 @@
+{
+  "DESIGN_NAME": "tt_um_alu7b",
+  "VERILOG_FILES": [
+    "src/tt_um_alu7b.v",
+    "src/alu_7b.v",
+    "src/serial_alu_ctrl.v"
+  ],
+  "CLOCK_PORT": "",
+  "CLOCK_PERIOD": 10,
+  "FP_PIN_ORDER_CFG": ""
+}
