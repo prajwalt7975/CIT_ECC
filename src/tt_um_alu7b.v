@@ -1,7 +1,7 @@
 `default_nettype none
 
 module tt_um_alu7b (
-    input  wire [6:0] ui_in,
+    input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
 
     input  wire [7:0] uio_in,
@@ -13,12 +13,14 @@ module tt_um_alu7b (
     input  wire rst_n
 );
 
+    // Internal 7-bit signals
     wire [6:0] a;
     wire [6:0] b;
     wire [2:0] op;
 
     reg [7:0] result;
 
+    // Use only lower 7 bits
     assign a  = ui_in[6:0];
     assign b  = uio_in[6:0];
     assign op = ui_in[2:0];
@@ -42,6 +44,7 @@ module tt_um_alu7b (
 
     assign uo_out = result;
 
+    // No bidirectional IO used
     assign uio_out = 8'b00000000;
     assign uio_oe  = 8'b00000000;
 
